@@ -84,7 +84,7 @@ char *diff(char *n, char *m){
 		int mdigit = m[l2 - 1 - i] % 48;
 		int odigit = out[l3 - i] % 48; 
 		
-		printf("%d %d %s\n", ndigit, mdigit, out);
+		//printf("%d %d %s\n", ndigit, mdigit, out);
 		
 		if ((ndigit - mdigit - carry) >= 0) {
 			out[l3 - i] = 48 + (ndigit - mdigit - carry);
